@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('install-dependencies') {
             steps {
+                sh"installations.sh"
                 //
             }
         }
